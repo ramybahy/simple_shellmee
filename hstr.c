@@ -136,5 +136,5 @@ int renmbr_hstr(info_t *inform)
 		nod->nmbr = u++;
 		nod = nod->nxt;
 	}
-	return (inform->hstrcon = u);
+return (inform->hstrcon = u);
 }

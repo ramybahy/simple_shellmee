@@ -80,13 +80,15 @@ int _mydir(info_t *inform)
  * @inform: Strctr contain potntal arg
  * Return: 0 Always
  */
+
 int _myhlper(info_t *inform)
 {
 	char **argum_arr;
+
 	argum_arr = inform->argumv;
 
 	_pts("help call work, Func not yet implemt \n");
 	if (0)
 		_pts(*argum_arr);
-	return (0);
+return (0);
 }

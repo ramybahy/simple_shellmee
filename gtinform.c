@@ -69,5 +69,5 @@ void fr_inform(info_t *inform, int alez)
 		if (inform->rdfm > 2)
 			close(inform->rdfm);
 		_ptchr(BUF_FLUSH);
-	}
+}
 }

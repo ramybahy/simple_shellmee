@@ -57,5 +57,5 @@ void *_rell(void *pont, unsigned int od_sz, unsigned int nw_sz)
 	while (od_sz--)
 		o[od_sz] = ((char *)pont)[od_sz];
 	free(pont);
-	return (o);
+return (o);
 }

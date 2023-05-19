@@ -231,5 +231,4 @@ void chk_chn(info_t *, char *, size_t *, size_t, size_t);
 int rplc_als(info_t *);
 int rplc_mrs(info_t *);
 int rplc_stng(char **, char *);
-
 #endif

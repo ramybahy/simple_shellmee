@@ -163,5 +163,5 @@ void sgntHndlr(__attribute__((unused))int sgn_nmbr)
 {
 	_pts("\n");
 	_pts("$ ");
-	_ptchr(BUF_FLUSH);
+_ptchr(BUF_FLUSH);
 }

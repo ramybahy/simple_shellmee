@@ -13,5 +13,5 @@ int bfree(void **pont)
 		*pont = NULL;
 		return (1);
 	}
-	return (0);
+return (0);
 }

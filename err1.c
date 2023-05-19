@@ -135,5 +135,5 @@ void rm_comnts(char *bufr)
 		{
 			bufr[j] = '\0';
 			break;
-		}
+}
 }

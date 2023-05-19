@@ -5,12 +5,12 @@
  * @hd: adrs of pnter hd nod
  * @stng: st fed nod
  * @nmbr: nod inx by hstry
- *
  * Return: size of list
  */
 list_t *ad_nod(list_t **hd, const char *stng, int nmbr)
 {
 	list_t *nw_hd;
+
 	if (!hd)
 		return (NULL);
 	nw_hd = malloc(sizeof(list_t));
@@ -154,5 +154,5 @@ void fr_lt(list_t **hd_pot)
 		free(nod);
 		nod = nxt_nod;
 	}
-	*hd_pot = NULL;
+*hd_pot = NULL;
 }

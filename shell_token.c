@@ -154,5 +154,5 @@ void fr_cmd(info_t *inform)
 			if (inform->sats == 126)
 				prt_err(inform, "Permission denied\n");
 		}
-	}
+}
 }

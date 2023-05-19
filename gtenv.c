@@ -85,5 +85,5 @@ int _stenv(info_t *inform, char *var, char *val)
 	ad_nod_ender(&(inform->env), bufr, 0);
 	free(bufr);
 	inform->env_chang = 1;
-	return (0);
+return (0);
 }

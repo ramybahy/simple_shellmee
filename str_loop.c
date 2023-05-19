@@ -21,9 +21,8 @@ int _stngln(char *stng)
  * _stngcm - prors lxcgapi coprsn strns
  * @stng1: is srn
  * @stng2: seod srn
- * return: etv ift<s2 psiiv  t  zos  t _stngcm
+ * return: neg if s1 < s2, pos if stng1 > stng2,zero if stng1 == stng2
  */
-
 int _stngcm(char *stng1, char *stng2)
 {
 	while (*stng1 && *stng2)
@@ -68,5 +67,5 @@ char *_stngct(char *dtn, char *sor)
 	while (*sor)
 		*dtn++ = *sor++;
 	*dtn = *sor;
-	return (rtr);
+return (rtr);
 }

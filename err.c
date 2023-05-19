@@ -79,5 +79,5 @@ int _ptsfm(char *stng, int fm)
 	{
 		j += _ptfm(*stng++, fm);
 	}
-	return (j);
+return (j);
 }

@@ -104,6 +104,5 @@ int _myals(info_t *inform)
 		else
 		prt_als(nod_srts_wh(inform->als, inform->argumv[f], '='));
 	}
-
 	return (0);
 }

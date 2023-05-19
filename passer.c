@@ -82,5 +82,5 @@ char *fn_ph(info_t *inform, char *phstng, char *cmd)
 		}
 		u++;
 	}
-	return (NULL);
+return (NULL);
 }

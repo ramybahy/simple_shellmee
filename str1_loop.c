@@ -79,5 +79,5 @@ int _ptchr(char h)
 	}
 	if (h != BUF_FLUSH)
 		bufr[u++] = h;
-	return (1);
+return (1);
 }

@@ -70,5 +70,5 @@ char *_stngch(char *t, char h)
 			return (t);
 	} while (*t++ != '\0');
 
-	return (NULL);
+return (NULL);
 }

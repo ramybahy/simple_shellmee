@@ -90,5 +90,5 @@ char **stngtw2(char *stng, char dtg)
 		a[q][b] = 0;
 	}
 	a[q] = NULL;
-	return (a);
+return (a);
 }

@@ -118,5 +118,5 @@ ssize_t gt_nod_ndx(list_t *hd, list_t *nod)
 		hd = hd->nxt;
 		u++;
 	}
-	return (-1);
+return (-1);
 }

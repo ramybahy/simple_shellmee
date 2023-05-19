@@ -146,5 +146,5 @@ int rplc_stng(char **od, char *nw)
 {
 	free(*od);
 	*od = nw;
-	return (1);
+return (1);
 }

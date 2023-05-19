@@ -40,5 +40,5 @@ int main(int acnt, char **avor)
 	poplt_env_lst(inform);
 	rd_hstr(inform);
 	hsh(inform, avor);
-	return (EXIT_SUCCESS);
+return (EXIT_SUCCESS);
 }

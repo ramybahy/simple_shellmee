@@ -70,5 +70,5 @@ int _mghv(char *f)
 	else
 		otpt = rslt;
 
-	return (otpt);
+return (otpt);
 }

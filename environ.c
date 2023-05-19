@@ -83,5 +83,5 @@ int poplt_env_lst(info_t *inform)
 	for (j = 0; environ[j]; j++)
 		ad_nod_ender(&nod, environ[j], 0);
 	inform->env = nod;
-	return (0);
+return (0);
 }
