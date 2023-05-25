@@ -40,7 +40,7 @@ int italph(int v)
 }
 
 /**
- * _mghv - convert str to int
+ * _mghv - convert st to int
  * @f: str to cnvrt
  * Return: if no numbers in str 0, othrwse cnvrt num
  */
